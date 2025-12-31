@@ -45,7 +45,7 @@ const Home = () => {
       {notes.length === 0 ? <Emptynote /> : <Card />}
       <Link
         to="/notes/new"
-        className="createBtn bg-btn drop-shadow-2xl px-6 py-6 rounded-full fixed right-9 top-[10rem] lg:top-[28rem] lg:right-24 z-20"
+        className="createBtn bg-btn drop-shadow-2xl px-6 py-6 rounded-full fixed right-9 top-[20rem] lg:top-[28rem] lg:right-24 z-20"
       >
         <FiPlus className="icon" />
       </Link>
